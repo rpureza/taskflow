@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API = "http://localhost:3001";
+const API = "https://taskflow-production-1cdb.up.railway.app";
 
 export default function Dashboard({ token, email, onLogout }) {
   const [tasks, setTasks] = useState([]);

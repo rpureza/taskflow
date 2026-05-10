@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "http://localhost:3001";
+const API = "https://taskflow-production-1cdb.up.railway.app";
 
 export default function Register({ onSwitch }) {
   const [email, setEmail] = useState("");
